@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* PresentationModal */
+.presentationmodal {
+  position: fixed; 
+  left: 0; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.presentationmodal-content {
+  width: 500px; 
+  background-color: #fff;
+}
+
+.presentationmodal-header, .modal-footer {
+  padding: 10px; 
+}
+
+.presentationmodal-title {
+  margin: 0; 
+}
+
+.presentationmodal-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
